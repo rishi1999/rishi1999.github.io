@@ -5,16 +5,4 @@
 .icon {
 	width: 3rem;
 	max-width: 75px;
-	animation-name: iconEmph;
-  	animation-duration: 3s;
-}
-
-@keyframes iconEmph {
-	from {
-		width: 10px;
-	}
-
-	to {
-		width: 3rem;
-	}
 }
