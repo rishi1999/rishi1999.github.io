@@ -1,8 +1,71 @@
-.iconLink:hover {
-	text-decoration: none;
+:root {
+	--card-padding: 0.25rem;
 }
 
+
+
 .icon {
-	width: 3rem;
-	max-width: 75px;
+	height: auto;
+	width: 1rem;
+	margin-right: 0.5rem;
+}
+
+.small-headshot {
+	height: 2.5rem;
+	width: auto;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+
+.main-content-heading {
+	margin-bottom: 1rem;
+}
+
+.profile-details {
+	margin-bottom: 0;
+}
+
+.social-list {
+	margin-top: 1rem;
+}
+
+.social-list-item {
+	padding-top: var(--card-padding);
+	padding-bottom: var(--card-padding);
+	padding-left: 0.5rem;
+}
+
+.info-card {
+	padding-bottom: var(--card-padding);
+}
+
+
+@media (min-width: 992px) {
+	.main-content {
+		font-size: 1.25rem;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.profile-name {
+		display: inline;
+	}
+
+	.dynamic-border {
+		border: 0;
+	}
+
+	.social-list {
+		display: inline-block;
+	}
+
+	.social-list-item {
+		border: 0;
+		padding-left: 0.25rem;
+	}
+
+	.info-card {
+		padding: 0;
+	}
 }
